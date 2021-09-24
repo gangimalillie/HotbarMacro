@@ -1,0 +1,121 @@
+{
+  "contentName": "test-content",
+  "count": 20,
+  "totalSec": 320,
+  "decription": "test",
+  "phases": [
+    {
+      "name": "count",
+      "start": 0,
+      "dulation": 20
+    },
+    {
+      "name": "P1",
+      "start": 20,
+      "dulation": 150
+    },
+    {
+      "name": "P2",
+      "start": 170,
+      "dulation": 150
+    }
+  ],
+  "enemies": [
+    {
+      "name": "Boss1",
+      "moves": [
+        {
+          "name": "マレフィキウム",
+          "types": ["全体", "魔法"],
+          "start": 23,
+          "dulation": 5,
+          "decription": "全体攻撃"
+        },
+        {
+          "name": "天罰の波動",
+          "types": ["タンク", "物理"],
+          "start": 30,
+          "dulation": 2,
+          "decription": "タンク2名にデバフ付き強攻撃・スイッチ"
+        },
+        {
+          "name": "マレフィキウム",
+          "types": ["全体", "魔法"],
+          "start": 55,
+          "dulation": 5,
+          "decription": "全体攻撃"
+        }
+      ],
+      "show": true
+    },
+    {
+      "name": "Bosss1",
+      "moves": [
+        {
+          "name": "マレフィキウム",
+          "types": ["全体", "魔法"],
+          "start": 23,
+          "dulation": 5,
+          "decription": "全体攻撃"
+        },
+        {
+          "name": "天罰の波動",
+          "types": ["タンク", "物理"],
+          "start": 30,
+          "dulation": 2,
+          "decription": "タンク2名にデバフ付き強攻撃・スイッチ"
+        },
+        {
+          "name": "マレフィキウム",
+          "types": ["全体", "魔法"],
+          "start": 55,
+          "dulation": 5,
+          "decription": "全体攻撃"
+        }
+      ],
+      "show": true
+    }
+  ],
+  "friends": [
+    {
+      "name": "暗黒騎士",
+      "gcd": 2.41,
+      "gcds": [
+        {
+          "name": "ハードスラッシュ",
+          "sec": 20
+        }
+      ],
+      "traits": [
+        {
+          "name": "ランパート",
+          "sec": [30]
+        }
+      ],
+      "show": true
+    },
+    {
+      "name": "ナイト",
+      "gcd": 2.41,
+      "gcds": [
+        {
+          "name": "ロイエ",
+          "sec": 20
+        }
+      ],
+      "traits": [
+        {
+          "name": "ランパート",
+          "sec": [30]
+        }
+      ],
+      "show": true
+    }
+  ],
+  "decriptions": [
+    {
+      "sec": 0,
+      "decription": "テスト"
+    }
+  ]
+}
